@@ -1,15 +1,15 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "google.com";
-   let book2 = "";
-   let book3 = "";
+   let pageTitle = "The Top Three Newly Released Books!";
+   let book1 = "The Midlife Cyclist";
+   let book2 = "What the Dog Saw";
+   let book3 = "Fake Work";
 
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Nothing here!" />
-         <img src={book2} alt="Nothing here!" />
-         <img src={book3} alt="Nothing here!" />
+         <img src={"https://m.media-amazon.com/images/I/41Z4ON-UZIL._SY445_SX342_.jpg"} alt="The Midlife Cyclist" />
+         <img src={"https://m.media-amazon.com/images/I/41GAaJtCuSL._SX342_SY445_.jpg"} alt="What the Dog Saw" />
+         <img src={"https://m.media-amazon.com/images/I/41EvfUrKsJL._SY445_SX342_.jpg"} alt="Fake Work" />
       </div>      
    );
 }
