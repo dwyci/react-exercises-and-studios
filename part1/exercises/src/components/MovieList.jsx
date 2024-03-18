@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './MovieList.module.css';
+import classes from './MovieList.module.css'; // Import your CSS file
 
 class MovieList extends React.Component {
    render() {
       const movies = ["Pride and Prejudice", "Howl's Moving Castle", "Roots", "Openhiemer"];
       return (
-      <div>
+         <div className={classes.container}>
          <h3 className = {classes.movieHeading}>Movies I Watched This Month</h3>
          <ol>
             <li className={classes.movieText}>{movies[0]}</li>
